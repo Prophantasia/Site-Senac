@@ -148,6 +148,11 @@ a {
   transition: opacity .5s;
 }
 
+.textoPagina img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 800px) {
 
   body {
@@ -157,4 +162,11 @@ a {
   .menu {
     border-radius: 0;
 }
+}
+
+@media screen and (max-width: 400px) {
+
+  .textoPagina img {
+    width: 95vw;
+  }
 }
